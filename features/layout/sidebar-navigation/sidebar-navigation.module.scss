@@ -73,7 +73,6 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: color.$gray-700;
   z-index: z-index.$header - 1;
   transform: translateX(100%);
   opacity: 0;
@@ -130,6 +129,10 @@
 .linkList {
   composes: list;
   flex: 1;
+}
+
+.iconRotate {
+  transform: rotate(180deg);
 }
 
 .collapseMenuItem {
